@@ -2,6 +2,43 @@
 <Resources Culture="tr-TR">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Account.Caption" Value="Hesap" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityCategory.Caption" Value="Kategori" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityPriority.Caption" Value="Öncelik" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityResult.Caption" Value="Aktivitenin sonucu" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Application.Caption" Value="Uygulamak" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Case.Caption" Value="Vaka" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Change.Caption" Value="Değişiklik" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contact.Caption" Value="Kişi" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contract.Caption" Value="Sözleşme" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.CurrentActivityId.Caption" Value="Görev kimliği" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Document.Caption" Value="Doküman" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Duration.Caption" Value="Süre" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.DurationPeriod.Caption" Value="Süre (dönem)" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ExecutionContext.Caption" Value="Yürütme içeriği" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.FinApplication.Caption" Value="Uygulamak" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Incident.Caption" Value="Talep" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.InformationOnStep.Caption" Value="Adım ile alakalı bilgi" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Invoice.Caption" Value="Fatura" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.IsActivityCompleted.Caption" Value="Faaliyet tamamlandı" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Lead.Caption" Value="Müşteri adayı" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Listing.Caption" Value="Klasörler" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Opportunity.Caption" Value="Fırsat" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Order.Caption" Value="Sipariş" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.OwnerId.Caption" Value="Sahip" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Problem.Caption" Value="Sorun" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Project.Caption" Value="Proje" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Property.Caption" Value="Özellikleri" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.QueueItem.Caption" Value="Queue item" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Recommendation.Caption" Value="Öneri" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Release.Caption" Value="İzin" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBefore.Caption" Value="Sahibe önceden hatırlat" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Sahibe önceden hatırlat (periyot)" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.Requests.Caption" Value="Sipariş" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowExecutionPage.Caption" Value="Otomatik olarak işlem sayfasını göster" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowInScheduler.Caption" Value="Takvimde göster" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartIn.Caption" Value="İçinde yürütmeye başla" />
+			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartInPeriod.Caption" Value="Yürütmeye başla (dönem)" />
 			<Item Name="Caption" Value="Test Process" />
 		</Items>
 	</Group>
