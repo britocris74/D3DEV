@@ -1,0 +1,1 @@
+delete from UsrTrafficLights where Name = 'blue' 

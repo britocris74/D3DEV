@@ -3,13 +3,15 @@
     "UId": "2d2498e9-5d96-4cd8-8a4e-598c021d6148",
     "Name": "UsrRealty",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1768576405000)\/",
+    "ModifiedOnUtc": "\/Date(1768579191000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/UsrRealty.csproj",
     "DependsOn": [
       {
-        "UId": "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a",
-        "Name": "Custom"
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
       }
     ]
   }
