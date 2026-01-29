@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="UsrColors" />
+			<Item Name="Columns.UsrMyColor.Caption" Value="My color" />
+			<Item Name="Columns.UsrNumber.Caption" Value="UsrNumber" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "50144e95-3b98-48a0-a99c-524f7cc486cc",
+    "Name": "UsrCreatioTest_ListPage",
+    "ModifiedOnUtc": "\/Date(1769198716000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "CreatioTest list page",
+    "DependsOn": []
+  }
+}

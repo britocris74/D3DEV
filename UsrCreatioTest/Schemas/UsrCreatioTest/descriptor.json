@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "58fcf7c0-0750-4e1b-b0ec-131ccbe595e1",
+    "Name": "UsrCreatioTest",
+    "ModifiedOnUtc": "\/Date(1769695882000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "CreatioTest",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+= MetaData.Schema.UId "998dfe98-8a76-4195-89d2-3d91b0019198"
+= MetaData.Schema.A2 "UsrCreatioTest_MobileFormPage"
+= MetaData.Schema.A5 "d484d861-d8e5-4a3f-84ad-1d9256189431"
+~ MetaData.Schema.B2 ["1796078a-f49e-4523-a672-dc04178b3a9c","cd1a74d3-b758-4a81-ac59-3206a47e86de","db86d140-029d-4cf9-a951-abd252affe02","cb9be707-2b99-4f99-8153-2b8926d07d85"]
+= MetaData.Schema.B6 "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a"
+= MetaData.Schema.HD1 "019c694a-1a3b-4812-b2e5-219b326061ae"
+= MetaData.Schema.HD6 "null"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false

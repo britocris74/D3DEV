@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "abe83db7-869c-4a83-a066-8a9148d250e5",
+    "Name": "UsrCreatioTestRelatedPage",
+    "ModifiedOnUtc": "\/Date(1769198716000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "CreatioTest (Page settings)",
+    "DependsOn": []
+  }
+}

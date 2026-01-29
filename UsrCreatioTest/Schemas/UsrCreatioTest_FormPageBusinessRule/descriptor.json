@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "243e8b6f-c5d3-449f-a365-e2df92a9306c",
+    "Name": "UsrCreatioTest_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1769697094000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "CreatioTest form page (Business rules)",
+    "DependsOn": []
+  }
+}

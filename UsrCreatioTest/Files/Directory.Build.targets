@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/UsrCreatioTest/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/UsrCreatioTest/Data/**" />
+		<Compile Remove="$(PkgPath)/UsrCreatioTest/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/UsrCreatioTest/Schemas\**" />
+		<Compile Remove="$(PkgPath)/UsrCreatioTest/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCreatioTest/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCreatioTest/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCreatioTest/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCreatioTest/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrCreatioTest/Resources/**" />
+		<None Remove="$(PkgPath)/UsrCreatioTest/Assemblies/**" />
+		<None Remove="$(PkgPath)/UsrCreatioTest/Data/**" />
+		<None Remove="$(PkgPath)/UsrCreatioTest/SqlScripts/**" />
+		<None Remove="$(PkgPath)/UsrCreatioTest/Schemas/**" />
+		<None Remove="$(PkgPath)/UsrCreatioTest/Resources/**" />
+  </ItemGroup>
+</Project>

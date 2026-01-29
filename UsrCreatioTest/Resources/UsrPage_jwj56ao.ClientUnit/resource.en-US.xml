@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="New edit page" />
+			<Item Name="LocalizableStrings.addRecord_040te5k_caption.Value" Value="Add new" />
+			<Item Name="Parameters.4a1c4889-9cfd-a181-b2fd-0bcf686786aa.Caption" Value="ColorsLookup" />
+		</Items>
+	</Group>
+</Resources>

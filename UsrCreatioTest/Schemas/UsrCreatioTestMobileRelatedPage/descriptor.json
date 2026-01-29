@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a9a736df-cf6a-4e57-9583-fc68a373f6fc",
+    "Name": "UsrCreatioTestMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1769198716000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "CreatioTest (Mobile page settings)",
+    "DependsOn": []
+  }
+}

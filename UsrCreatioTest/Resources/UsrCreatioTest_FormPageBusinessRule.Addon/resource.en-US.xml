@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.2261e7e0-447f-c46e-438b-5d1741cbfe9e.Caption" Value="Show elements: Comentario" />
+			<Item Name="AddonConfig.Rules.c34d03b6-f211-02a0-378d-82b479840fa8.Caption" Value="Show elements: Commission, USD" />
+			<Item Name="Caption" Value="CreatioTest form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

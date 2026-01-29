@@ -1,0 +1,30 @@
+﻿{
+  "Descriptor": {
+    "UId": "1994e37e-53fe-4b91-b5cd-0df1528e031a",
+    "Name": "UsrCreatioTest",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(-62135586000000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrCreatioTest.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "3a71e376-9ac3-3049-c62b-9c43b9abe054",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCoreBase",
+        "Type": 1
+      },
+      {
+        "UId": "70ff4e5f-d0af-6a9b-e063-f7171aac2c42",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtUIPlatform",
+        "Type": 1
+      }
+    ]
+  }
+}

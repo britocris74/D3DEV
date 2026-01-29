@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "719a3917-41cd-4a02-8c6b-4c6f15b8d179",
+    "Name": "UsrColors",
+    "ModifiedOnUtc": "\/Date(1769533846000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "UsrColors",
+    "DependsOn": []
+  }
+}

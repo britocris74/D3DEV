@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "998dfe98-8a76-4195-89d2-3d91b0019198",
+    "Name": "UsrCreatioTest_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1769198716000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "CreatioTest mobile form page",
+    "DependsOn": []
+  }
+}
