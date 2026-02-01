@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="CreatioTest form page" />
+			<Item Name="LocalizableStrings.CategoryMultiSelect_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.Colors_placeholder.Value" Value="Elige un color" />
 			<Item Name="LocalizableStrings.ExpansionPanel_939pl13_title.Value" Value="Realty visit" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_t0pel6q_caption.Value" Value="New" />

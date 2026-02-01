@@ -245,6 +245,27 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 			},
 			{
 				"operation": "insert",
+				"name": "CategoryMultiSelect",
+				"values": {
+					"type": "crt.MultiSelect",
+					"label": "#ResourceString(CategoryMultiSelect_label)#",
+					"recordId": "$PDS_UsrColorsLookup_0ef5k2u",
+					"recordRelationColumnName": "UsrParentRealty",
+					"selectSchemaName": "UsrCateryInObject",
+					"selectColumnName": "UsrCategory",
+					"visible": true,
+					"labelPosition": "auto",
+					"placeholder": "",
+					"tooltip": "",
+					"required": false,
+					"isModalView": false
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "ExpansionPanel_939pl13",
 				"values": {
 					"type": "crt.ExpansionPanel",
@@ -267,7 +288,7 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 				},
 				"parentName": "GeneralInfoTab",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -773,6 +794,9 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 						}
 					},
 					"GridDetail_5za3wej_PredefinedFilter": {
+						"value": null
+					},
+					"CategoryMultiSelect_List_Items_Predefined_Filter": {
 						"value": null
 					}
 				}

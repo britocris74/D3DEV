@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "56be8f52-52f3-450d-b383-dfad626f9fbe",
+    "Name": "UsrRealtyCategory",
+    "ModifiedOnUtc": "\/Date(1769958876000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Category",
+    "DependsOn": []
+  }
+}
