@@ -4,11 +4,12 @@
 		<Items>
 			<Item Name="Caption" Value="CreatioTest" />
 			<Item Name="Columns.UsrColorsLookup.Caption" Value="Colors" />
-			<Item Name="Columns.UsrColumn10.Caption" Value="Comentario" />
+			<Item Name="Columns.UsrComment.Caption" Value="Comentario" />
 			<Item Name="Columns.UsrCommission.Caption" Value="Commission, USD" />
 			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
 			<Item Name="Columns.UsrMyColor.Caption" Value="My color" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrPrice.Caption" Value="Price, USD" />
 		</Items>
 	</Group>
 </Resources>

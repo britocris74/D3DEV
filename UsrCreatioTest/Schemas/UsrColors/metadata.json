@@ -79,6 +79,14 @@
   "A5": "f753c22a-95d4-41ba-ba19-b4792dd0a066",
   "S2": "dafb71f9-ee9f-4e0b-a4d7-37aa15987155"
 }
++ MetaData.Schema.D2 {
+  "UId": "4f5b5a0d-9b25-f9c2-3875-6fa79e454a18",
+  "A2": "UsrCommissionPercent",
+  "A3": "719a3917-41cd-4a02-8c6b-4c6f15b8d179",
+  "A4": "719a3917-41cd-4a02-8c6b-4c6f15b8d179",
+  "A5": "f753c22a-95d4-41ba-ba19-b4792dd0a066",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -89,7 +97,8 @@
   "9e53fd7c-dde4-4502-a64c-b9e34148108b",
   "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
   "31473ed6-a313-c596-a75e-d4b06256e748",
-  "495d1fff-6276-f8d1-a7da-961eb0d39701"
+  "495d1fff-6276-f8d1-a7da-961eb0d39701",
+  "4f5b5a0d-9b25-f9c2-3875-6fa79e454a18"
 ]
 = MetaData.Schema.D20.A2 "UsrColorsEvents"
 + MetaData.Schema.D20.FA1 false

@@ -51,7 +51,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "ea99355a-685c-32eb-0302-cd11ae7415ce",
-  "A2": "UsrColumn10",
+  "A2": "UsrComment",
   "A3": "58fcf7c0-0750-4e1b-b0ec-131ccbe595e1",
   "A4": "58fcf7c0-0750-4e1b-b0ec-131ccbe595e1",
   "A5": "f753c22a-95d4-41ba-ba19-b4792dd0a066",
@@ -79,6 +79,14 @@
   "A5": "f753c22a-95d4-41ba-ba19-b4792dd0a066",
   "S2": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
 }
++ MetaData.Schema.D2 {
+  "UId": "c0b7ed2e-714f-9d55-284c-c3c1c880443e",
+  "A2": "UsrPrice",
+  "A3": "58fcf7c0-0750-4e1b-b0ec-131ccbe595e1",
+  "A4": "58fcf7c0-0750-4e1b-b0ec-131ccbe595e1",
+  "A5": "f753c22a-95d4-41ba-ba19-b4792dd0a066",
+  "S2": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -91,7 +99,8 @@
   "0486c6f9-5711-4320-acdd-cbd0b79ef9ce",
   "ea99355a-685c-32eb-0302-cd11ae7415ce",
   "dcbd4dad-18bb-ec18-bcc9-74c3617343c7",
-  "2394adb5-8af3-3665-1831-76c633547dea"
+  "2394adb5-8af3-3665-1831-76c633547dea",
+  "c0b7ed2e-714f-9d55-284c-c3c1c880443e"
 ]
 = MetaData.Schema.D20.A2 "UsrCreatioTestEvents"
 + MetaData.Schema.D20.FA1 false

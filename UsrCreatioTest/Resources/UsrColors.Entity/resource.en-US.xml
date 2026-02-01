@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="UsrColors" />
+			<Item Name="Columns.UsrCommissionPercent.Caption" Value="Commission percent, from 0 to 100%" />
 			<Item Name="Columns.UsrMyColor.Caption" Value="My color" />
 			<Item Name="Columns.UsrNumber.Caption" Value="UsrNumber" />
 		</Items>

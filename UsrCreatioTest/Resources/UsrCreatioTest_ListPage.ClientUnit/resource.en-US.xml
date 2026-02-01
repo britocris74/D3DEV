@@ -3,6 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="CreatioTest list page" />
+			<Item Name="LocalizableStrings.QuickFilter_36bn40z_caption.Value" Value="Quick filter" />
+			<Item Name="LocalizableStrings.QuickFilter_caption.Value" Value="Colors" />
+			<Item Name="LocalizableStrings.QuickFilter_config_caption.Value" Value="Colors" />
 		</Items>
 	</Group>
 </Resources>

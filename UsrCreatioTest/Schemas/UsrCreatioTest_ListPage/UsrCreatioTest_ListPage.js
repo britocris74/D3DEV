@@ -17,7 +17,6 @@ define("UsrCreatioTest_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 				"operation": "merge",
 				"name": "FolderTree",
 				"values": {
-					"sourceSchemaName": "FolderTree",
 					"rootSchemaName": "UsrCreatioTest"
 				}
 			},
@@ -43,8 +42,22 @@ define("UsrCreatioTest_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 							"code": "PDS_CreatedBy",
 							"caption": "#ResourceString(PDS_CreatedBy)#",
 							"dataValueType": 10
+						}
+					],
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
 						},
-					]
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"visible": true
 				}
 			},
 			{
@@ -62,6 +75,48 @@ define("UsrCreatioTest_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 						"filters": []
 					}
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "QuickFilter",
+				"values": {
+					"type": "crt.QuickFilter",
+					"config": {
+						"caption": "#ResourceString(QuickFilter_config_caption)#",
+						"hint": "",
+						"icon": "filter-column-icon",
+						"iconPosition": "left-icon",
+						"defaultValue": [],
+						"entitySchemaName": "UsrColors",
+						"recordsFilter": null
+					},
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "QuickFilter_Items",
+								"converters": [
+									{
+										"converter": "crt.QuickFilterAttributeConverter",
+										"args": [
+											{
+												"target": {
+													"viewAttributeName": "Items",
+													"filterColumn": "UsrColorsLookup"
+												},
+												"quickFilterType": "lookup"
+											}
+										]
+									}
+								]
+							}
+						],
+						"from": "QuickFilter_Value"
+					},
+					"filterType": "lookup"
+				},
+				"parentName": "ListContainer",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -89,6 +144,38 @@ define("UsrCreatioTest_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 							"path": "PDS.CreatedBy"
 						}
 					}
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"attributes",
+					"Items",
+					"modelConfig"
+				],
+				"values": {
+					"filterAttributes": [
+						{
+							"loadOnChange": true,
+							"name": "FolderTree_active_folder_filter"
+						},
+						{
+							"name": "Items_PredefinedFilter",
+							"loadOnChange": true
+						},
+						{
+							"name": "LookupQuickFilterByTag_Items",
+							"loadOnChange": true
+						},
+						{
+							"name": "SearchFilter_Items",
+							"loadOnChange": true
+						},
+						{
+							"name": "QuickFilter_Items",
+							"loadOnChange": true
+						}
+					]
 				}
 			}
 		]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,

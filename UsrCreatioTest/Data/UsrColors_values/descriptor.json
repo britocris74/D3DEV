@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f6dea50d-5203-255b-35d7-01dc4268a2dc",
     "Name": "UsrColors_values",
-    "ModifiedOnUtc": "\/Date(1769536393000)\/",
+    "ModifiedOnUtc": "\/Date(1769704152000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "719a3917-41cd-4a02-8c6b-4c6f15b8d179",
@@ -22,6 +22,13 @@
         "IsKey": false,
         "ColumnName": "UsrMyColor",
         "DataTypeValueUId": "dafb71f9-ee9f-4e0b-a4d7-37aa15987155"
+      },
+      {
+        "ColumnUId": "4f5b5a0d-9b25-f9c2-3875-6fa79e454a18",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "UsrCommissionPercent",
+        "DataTypeValueUId": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
       },
       {
         "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",

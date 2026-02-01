@@ -631,6 +631,7 @@
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrColors/UsrColors.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrColors/UsrColors.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrCreatioTest/UsrCreatioTest.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrCreatioTest/UsrCreatioTest.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrRealtyVisit/UsrRealtyVisit.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCreatioTest/Schemas/UsrRealtyVisit/UsrRealtyVisit.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
