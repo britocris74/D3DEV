@@ -20,6 +20,12 @@
         "Type": 1
       },
       {
+        "UId": "63489f66-da08-7adf-96b6-5ae8e5b258e5",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtTechUserCreatioResKitUtility",
+        "Type": 1
+      },
+      {
         "UId": "70ff4e5f-d0af-6a9b-e063-f7171aac2c42",
         "PackageVersion": "7.8.0",
         "Name": "CrtUIPlatform",

@@ -1,0 +1,94 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "01afbb1d-9d5d-4d7e-bb68-ffd7e2b315fa"
+        },
+        {
+          "SchemaColumnUId": "5d11e80c-7cff-04ce-8d34-d2ad8e46679e",
+          "Value": "Comentarios"
+        },
+        {
+          "SchemaColumnUId": "b96656bf-67f0-e00d-6ee9-b8bfd2c988b0",
+          "Value": "66176ede-951e-48e9-8027-c829c25f34d7",
+          "DisplayValue": "Blue"
+        },
+        {
+          "SchemaColumnUId": "e2759b0b-6c8b-772e-18f0-83256ceecdc9",
+          "Value": "\/Date(1769957479571-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1769957479571-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "ec5cbb19-21d7-5b3f-4bbb-ea061b110e3b",
+          "Value": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+          "DisplayValue": "Supervisor"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8bb74ed4-8272-436e-8193-4dda9dc44d46"
+        },
+        {
+          "SchemaColumnUId": "5d11e80c-7cff-04ce-8d34-d2ad8e46679e",
+          "Value": "Cometarios"
+        },
+        {
+          "SchemaColumnUId": "b96656bf-67f0-e00d-6ee9-b8bfd2c988b0",
+          "Value": "38448119-7cb7-4718-a9a7-9cc5e2090e79",
+          "DisplayValue": "Yellow"
+        },
+        {
+          "SchemaColumnUId": "e2759b0b-6c8b-772e-18f0-83256ceecdc9",
+          "Value": "\/Date(1769957559268-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1769957559268-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "ec5cbb19-21d7-5b3f-4bbb-ea061b110e3b",
+          "Value": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+          "DisplayValue": "Supervisor"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "912d9538-ae78-47aa-abc1-3aa63bd7c751"
+        },
+        {
+          "SchemaColumnUId": "5d11e80c-7cff-04ce-8d34-d2ad8e46679e",
+          "Value": "Comentarios"
+        },
+        {
+          "SchemaColumnUId": "b96656bf-67f0-e00d-6ee9-b8bfd2c988b0",
+          "Value": "7e922729-fa5a-435d-a0fc-7440728ad9e5",
+          "DisplayValue": "Red"
+        },
+        {
+          "SchemaColumnUId": "e2759b0b-6c8b-772e-18f0-83256ceecdc9",
+          "Value": "\/Date(1769957597322-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1769957597322-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "ec5cbb19-21d7-5b3f-4bbb-ea061b110e3b",
+          "Value": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+          "DisplayValue": "Supervisor"
+        }
+      ]
+    }
+  ]
+}

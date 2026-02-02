@@ -1,13 +1,13 @@
 ﻿{
   "Descriptor": {
-    "UId": "ace796b9-81b1-4ade-bc2a-57f9d0c44e33",
-    "Name": "UsrCreatioTest_FormPage",
-    "ModifiedOnUtc": "\/Date(1769983011000)\/",
+    "UId": "b2221ab0-bfb2-4472-907b-2d770c852ab4",
+    "Name": "UsrAveragePriceOutputPage",
+    "ModifiedOnUtc": "\/Date(1769984711000)\/",
     "Parent": {
       "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
       "Name": "PageWithTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "CreatioTest form page"
+    "Caption": "Average price output page"
   }
 }

@@ -40,6 +40,33 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 			},
 			{
 				"operation": "insert",
+				"name": "CalculateButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(CalculateButton_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAverageRealtyPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "PushmeButton",
 				"values": {
 					"type": "crt.Button",
@@ -59,7 +86,7 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
