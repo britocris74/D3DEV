@@ -1,4 +1,4 @@
-define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -40,6 +40,27 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 			},
 			{
 				"operation": "insert",
+				"name": "MaxPriceButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(MaxPriceButton_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceButtonRequest"
+					},
+					"clickMode": "default",
+					"icon": "calculator-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "CalculateButton",
 				"values": {
 					"type": "crt.Button",
@@ -63,7 +84,7 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -86,7 +107,7 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -930,7 +951,41 @@ define("UsrCreatioTest_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/*
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
 				}
+			},
+			{
+				request: "usr.RunWebServiceButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					console.log("Run web service button works...");
+
+					// get id from type lookup offer type object
+					var colorsObjectObject = await request.$context.PDS_UsrColorsLookup_0ef5k2u;
+					var colorId = "";
+					if (colorsObjectObject) {
+						colorId = colorsObjectObject.value;
+					}
+
+					/* Create an instance of the HTTP client from @creatio-devkit/common. */
+					const httpClientService = new sdk.HttpClientService();
+					/* Specify the URL to run web service method. */
+					const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+					const transferName = "rest";
+					const serviceName = "RealtyService";
+					const methodName = "GetMaxPriceByTypeId";
+					const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+					
+					//const endpoint = "http://localhost/D1_Studio/0/rest/RealtyService/GetMaxPriceByTypeId";
+					/* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+					var params = {
+						colorsLookupId: colorId
+					};
+					const response = await httpClientService.post(endpoint, params);
+					console.log("response max price = " + response.body.GetMaxPriceByTypeIdResult);
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
 			}
+
 
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
